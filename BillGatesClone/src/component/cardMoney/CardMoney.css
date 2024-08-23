@@ -1,0 +1,13 @@
+.cardMoney {
+  background: linear-gradient(to bottom, #2cca77, #1dbf95);
+  width: 70%;
+  margin: 30px auto;
+  padding: 10px;
+}
+.money-text {
+  font-size: 40px;
+  color: white;
+  padding: 3px;
+  margin: 0;
+  text-align: center;
+}

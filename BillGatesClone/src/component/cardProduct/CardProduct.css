@@ -1,0 +1,26 @@
+.cardProducts {
+  width: 70%;
+  margin: 0 auto;
+  height: auto;
+}
+.buyButton {
+  background: linear-gradient(to bottom, #75e8ab, #1dbf95);
+  border: 0;
+  padding: 5px 20px;
+  color: white;
+  border-radius: 4px;
+}
+.sellButton {
+  background: linear-gradient(to bottom, #75e8ab, #1dbf95);
+  border: 0;
+  padding: 5px 20px;
+  color: white;
+  border-radius: 4px;
+}
+.count {
+  background: linear-gradient(to bottom, #75e8ab, #1dbf95);
+  border: 0;
+  padding: 5px 20px;
+  color: white;
+  border-radius: 4px;
+}
