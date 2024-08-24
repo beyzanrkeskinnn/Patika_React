@@ -10,27 +10,13 @@ function CardReceipt({ cart }) {
       <ul className="list-unstyled">
         {cartItems.map((item) => (
           <li key={item.id}>
-            <div
-              className="itemlist"
-              style={{ display: "flex", justifyContent: "space-between" }}
-            >
-              <p style={{ flex: 6, margin: "0 5px" }}>
-                <span>{item.name}</span>
+            <div className="itemlist">
+              <p className="a">
+                {item.name}
               </p>
-              <p style={{ flex: 1, margin: "0 50px" }}>
-                {" "}
-                ${item.price.toLocaleString()}
-              </p>
-              <p style={{ flex: 1, margin: "0 10px" }}>x{item.quantity}</p>
-              <p
-                style={{
-                  flex: 4,
-                  margin: "0 10px",
-                  display: "block",
-                  textAlign: "left",
-                  backgroundColor: "pink",
-                }}
-              >
+              <p className="a">${item.price.toLocaleString()}</p>
+              <p className="a">x{item.quantity}</p>
+              <p className=" a font-weight-bold " style={{color: '#1dbf95'}}>
                 ${item.totalPrice.toLocaleString()}
               </p>
             </div>
