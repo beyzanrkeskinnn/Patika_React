@@ -6,21 +6,20 @@
 .buyButton {
   background: linear-gradient(to bottom, #75e8ab, #1dbf95);
   border: 0;
-  padding: 5px 20px;
+  padding: 5px 16px;
   color: white;
   border-radius: 4px;
 }
 .sellButton {
-  background: linear-gradient(to bottom, #75e8ab, #1dbf95);
+  background-color: #f1f2f6;
   border: 0;
-  padding: 5px 20px;
-  color: white;
+  padding: 5px 16px;
+  color: black;
   border-radius: 4px;
 }
 .count {
-  background: linear-gradient(to bottom, #75e8ab, #1dbf95);
-  border: 0;
-  padding: 5px 20px;
-  color: white;
+  border: 5px #000000;
+  padding: 5px 30px;
+  color: black;
   border-radius: 4px;
 }

@@ -1,9 +1,10 @@
 import "./CardMoney.css";
 
-function CardMoney() {
+//balance information
+function CardMoney({ balance }) {
   return (
     <div className="cardMoney">
-      <p className="money-text">$20.000.000</p>
+      <p className="money-text">${balance.toLocaleString()}</p>
     </div>
   );
 }
