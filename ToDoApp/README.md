@@ -1,8 +1,12 @@
-# React + Vite
+# TodoMVC React Uygulaması
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- Bu projede React teknolojisi kullanılarak  oluşturulmuştur. 
+- Uygulama, kullanıcıların görev eklemesine, görevleri tamamlanmış olarak işaretlemesine, görevleri silmesine ve görevlerin durumuna göre filtrelemesine olanak tanır. Ayrıca, görevler yerel depolama (`localStorage`) aracılığıyla tarayıcıda saklanır, böylece sayfa yenilendiğinde görevler korunur.
+  - Canlı için [tıklayınız.](https://patika-react-tau.vercel.app/) 
 
-Currently, two official plugins are available:
+Bu projeyi yerel ortamınıza kurmak için aşağıdaki adımları izleyin:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+   ```bash
+   git clone https://github.com/beyzanrkeskinnn/Patika_React.git
+   cd todomvc-react
+
