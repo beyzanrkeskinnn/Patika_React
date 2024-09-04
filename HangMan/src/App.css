@@ -2,3 +2,45 @@
   text-align: center;
   margin-top: 20px;
 }
+.button{
+  width: 50px;
+  height: 50px;
+  margin: 2px;
+  border-radius: 5px;
+  border: 0;
+  cursor: pointer;
+}
+.button-area{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+}
+.question{
+  font-size: 22px;
+  border-bottom: 3px solid #ddd ;
+  margin: 5px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.question:hover{
+  background-color: #f44336;
+  color: white;
+  border-bottom: 3p solid #f44336 ;
+}
+.question-name{
+  
+  font-size: 17px;
+  font-weight: 700px;
+}
+
+.question-area{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0 ;
+}
