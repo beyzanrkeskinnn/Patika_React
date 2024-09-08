@@ -1,7 +1,7 @@
 # Star Wars Yıldız Gemileri Projesi
 
 Bu proje, Star Wars API'sini kullanarak yıldız gemilerini listeleme, arama yapma ve detaylarını görüntüleme işlevlerini sağlar.
-- Projeyi canlıda [görün](https://patika-react-starwarsapp.vercel.app/) 
+- Projeyi canlıda görmek için [tıklayınız](https://patika-react-starwarsapp.vercel.app/) 
 
 ## Özellikler
 
