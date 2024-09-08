@@ -9,6 +9,7 @@ function StarshipDetail() {
 
   useEffect(() => {
     fetch(`https://swapi.dev/api/starships/${id}/`)
+
       .then((response) => response.json())
       .then((data) => {
         setStarship(data);

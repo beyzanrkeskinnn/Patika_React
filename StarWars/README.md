@@ -1,8 +1,29 @@
-# React + Vite
+# Star Wars Yıldız Gemileri Projesi
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bu proje, Star Wars API'sini kullanarak yıldız gemilerini listeleme, arama yapma ve detaylarını görüntüleme işlevlerini sağlar.
+- Projeyi canlıda [görün](https://patika-react-starwarsapp.vercel.app/) 
 
-Currently, two official plugins are available:
+## Özellikler
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Yıldız Gemilerini Listeleyin:** Star Wars API kullanılarak yıldız gemileri listelenir.
+- **Yıldız Gemileri Arasında Arama Yapın:** Kullanıcılar ad veya modeline göre yıldız gemilerini arayabilirler.
+- **Belirli Bir Yıldız Gemisinin Detaylarını Okuyun:** Kullanıcılar, herhangi bir yıldız gemisine tıkladığında, ad, model, yolcu sayısı, atmosferdeki maksimum hız, üretici, mürettebat ve kargo kapasitesi gibi bilgileri içeren bir detay sayfasına yönlendirilirler.
+- **Ana Sayfaya Geri Dönün:** Detay sayfasından ana sayfaya geri dönme işlevi mevcuttur.
+
+## Kullanılan Teknolojiler
+
+- [React](https://reactjs.org/): Kullanıcı arayüzünü oluşturmak için.
+- [React Router DOM](https://reactrouter.com/web/guides/quick-start): Sayfalar arasında gezinme için.
+- [SWAPI (Star Wars API)](https://swapi.dev/): Yıldız gemisi verilerini sağlamak için.
+
+## Kurulum
+
+1. **Projeyi Klonlayın:**
+
+   ```bash
+   git clone https://github.com/kullanici_adiniz/Patika_React.git
+   cd Patika_React
+   npm install
+   npm install react-router-dom
+
+
